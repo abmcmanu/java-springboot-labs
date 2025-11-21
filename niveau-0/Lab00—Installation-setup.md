@@ -140,7 +140,7 @@ Lancez le fichier téléchargé → cliquez sur *Next* → laissez les paramètr
 - **Valeur :** `C:\Program Files\Java\jdk-17`  
   *(le dossier exact dépend de votre installation et le nom du dossier)*
 
-- ![Step2LocatingJDKFile](https://raw.githubusercontent.com/abmcmanu/java-springboot-labs/tree/main/assets/niveau0/Step2LocatingJDKFile.png)
+- ![Step2LocatingJDKFile](https://raw.githubusercontent.com/abmcmanu/java-springboot-labs/main/assets/niveau0/Step2LocatingJDKFile.png)
 
 Pour notre cas en image la version de java est 18.
 
@@ -149,8 +149,8 @@ Si vous souhaitez utiliser celles de Java 17, vous pouvez travailler avec une ve
 Idéalement, utilisez exactement la version 17.
 Nous verrons cela lors de la configuration de notre IDE.
 
-![Step2ConfiguringEnvironmentVariables](https://raw.githubusercontent.com/abmcmanu/java-springboot-labs/tree/main/assets/niveau0/Step2ConfiguringEnvironmentVariables.png)
-![Step2SettingJAVAHOMEEnvironmentVariable](https://raw.githubusercontent.com/abmcmanu/java-springboot-labs/tree/main/assets/niveau0/Step2SettingJAVAHOMEEnvironmentVariable.png)
+![Step2ConfiguringEnvironmentVariables](https://raw.githubusercontent.com/abmcmanu/java-springboot-labs/main/assets/niveau0/Step2ConfiguringEnvironmentVariables.png)
+![Step2SettingJAVAHOMEEnvironmentVariable](https://raw.githubusercontent.com/abmcmanu/java-springboot-labs/main/assets/niveau0/Step2SettingJAVAHOMEEnvironmentVariable.png)
 
 ### ➤ Modifier la variable Path
 
@@ -158,7 +158,7 @@ Nous verrons cela lors de la configuration de notre IDE.
 2. Cliquer sur **Modifier**
 3. Ajouter à la fin : ;%JAVA_HOME%\bin
 
-![Step2SettingEnvironmentVariable](https://raw.githubusercontent.com/abmcmanu/java-springboot-labs/tree/main/assets/niveau0/Step2SettingEnvironmentVariable.png)
+![Step2SettingEnvironmentVariable](https://raw.githubusercontent.com/abmcmanu/java-springboot-labs/main/assets/niveau0/Step2SettingEnvironmentVariable.png)
 
 > 📝 Le `;` est essentiel : c’est un séparateur Windows.
 
@@ -169,7 +169,7 @@ Ouvrez **CMD** et tapez :
 
 Si vous voyez une version Java 17 ( openjdk 17 )  → tout est correct 🎉
 
-![Step3CheckingJDKVersion](https://raw.githubusercontent.com/abmcmanu/java-springboot-labs/tree/main/assets/niveau0/Step3CheckingJDKVersion.png)
+![Step3CheckingJDKVersion](https://raw.githubusercontent.com/abmcmanu/java-springboot-labs/main/assets/niveau0/Step3CheckingJDKVersion.png)
 
 
 > **Remarque :**  

@@ -140,7 +140,7 @@ Lancez le fichier téléchargé → cliquez sur *Next* → laissez les paramètr
 - **Valeur :** `C:\Program Files\Java\jdk-17`  
   *(le dossier exact dépend de votre installation et le nom du dossier)*
 
-- ![Step2LocatingJDKFile](https://github.com/abmcmanu/java-springboot-labs/tree/main/assets/niveau0/assets/niveau0/Step2LocatingJDKFile.png)
+- ![Step2LocatingJDKFile](https://github.com/abmcmanu/java-springboot-labs/tree/main/assets/niveau0/Step2LocatingJDKFile.png)
 
 Pour notre cas en image la version de java est 18.
 
@@ -149,8 +149,8 @@ Si vous souhaitez utiliser celles de Java 17, vous pouvez travailler avec une ve
 Idéalement, utilisez exactement la version 17.
 Nous verrons cela lors de la configuration de notre IDE.
 
-![Step2ConfiguringEnvironmentVariables](https://github.com/abmcmanu/java-springboot-labs/tree/main/assets/niveau0/assets/niveau0/Step2ConfiguringEnvironmentVariables.png)
-![Step2SettingJAVAHOMEEnvironmentVariable](https://github.com/abmcmanu/java-springboot-labs/tree/main/assets/niveau0/assets/niveau0/Step2SettingJAVAHOMEEnvironmentVariable.png)
+![Step2ConfiguringEnvironmentVariables](https://github.com/abmcmanu/java-springboot-labs/tree/main/assets/niveau0/Step2ConfiguringEnvironmentVariables.png)
+![Step2SettingJAVAHOMEEnvironmentVariable](https://github.com/abmcmanu/java-springboot-labs/tree/main/assets/niveau0/Step2SettingJAVAHOMEEnvironmentVariable.png)
 
 ### ➤ Modifier la variable Path
 
@@ -158,7 +158,7 @@ Nous verrons cela lors de la configuration de notre IDE.
 2. Cliquer sur **Modifier**
 3. Ajouter à la fin : ;%JAVA_HOME%\bin
 
-![Step2SettingEnvironmentVariable](https://github.com/abmcmanu/java-springboot-labs/tree/main/assets/niveau0/assets/niveau0/Step2SettingEnvironmentVariable.png)
+![Step2SettingEnvironmentVariable](https://github.com/abmcmanu/java-springboot-labs/tree/main/assets/niveau0/Step2SettingEnvironmentVariable.png)
 
 > 📝 Le `;` est essentiel : c’est un séparateur Windows.
 
@@ -169,7 +169,7 @@ Ouvrez **CMD** et tapez :
 
 Si vous voyez une version Java 17 ( openjdk 17 )  → tout est correct 🎉
 
-![Step3CheckingJDKVersion](https://github.com/abmcmanu/java-springboot-labs/tree/main/assets/niveau0/assets/niveau0/Step3CheckingJDKVersion.png)
+![Step3CheckingJDKVersion](https://github.com/abmcmanu/java-springboot-labs/tree/main/assets/niveau0/Step3CheckingJDKVersion.png)
 
 
 > **Remarque :**  
@@ -192,13 +192,13 @@ Pour écrire et exécuter vos programmes Java, nous allons utiliser **IntelliJ I
 1. Rendez-vous sur : **[jetbrains ici](https://www.jetbrains.com/idea/download)**
 2. Scroller jusqu'à la version community dans la section Windows, cliquez sur **Download – Community Edition (gratuit)**.
 
-![intellij-idea-website-windows-tab](https://github.com/abmcmanu/java-springboot-labs/tree/main/assets/niveau0/assets/niveau0/intellij-idea-website-windows-tab.jpg)
+![intellij-idea-website-windows-tab](https://github.com/abmcmanu/java-springboot-labs/main/assets/niveau0/intellij-idea-website-windows-tab.jpg)
 
 3. Le fichier d’installation (`.exe`) va se télécharger.
 
-![intellij-idea-website-2-community-edition-download](https://github.com/abmcmanu/java-springboot-labs/tree/main/assets/niveau0/assets/niveau0/intellij-idea-website-2-community-edition-download.jpg)
+![intellij-idea-website-2-community-edition-download](https://github.com/abmcmanu/java-springboot-labs/main/assets/niveau0/intellij-idea-website-2-community-edition-download.jpg)
 
-![intellij-idea-download-started](https://github.com/abmcmanu/java-springboot-labs/tree/main/assets/niveau0/assets/niveau0/intellij-idea-download-started.jpg)
+![intellij-idea-download-started](https://github.com/abmcmanu/java-springboot-labs/main/assets/niveau0/intellij-idea-download-started.jpg)
 
 ---
 
@@ -231,7 +231,7 @@ Lors du premier démarrage :
 
 Vous arrivez ensuite sur l’écran d’accueil.
 
-![FirstStart](https://github.com/abmcmanu/java-springboot-labs/tree/main/assets/niveau0/assets/niveau0/FirstStart.webp)
+![FirstStart](https://github.com/abmcmanu/java-springboot-labs/main/assets/niveau0/FirstStart.webp)
 
 ---
 
@@ -241,7 +241,7 @@ Vous arrivez ensuite sur l’écran d’accueil.
 
 Une fenêtre apparaît pour choisir la configuration du projet.
 
-![NewProject](https://github.com/abmcmanu/java-springboot-labs/tree/main/assets/niveau0/assets/niveau0/NewProject.webp)
+![NewProject](https://github.com/abmcmanu/java-springboot-labs/main/assets/niveau0/NewProject.webp)
 
 ### 2️⃣ Vérifier le JDK (Java 17)
 
@@ -270,11 +270,11 @@ Quand le projet s’ouvre :
 1. Dans l’arborescence à gauche, faites clic droit sur le dossier `src`
 2. Choisissez : **New → Java Class**
 
-![YourFirstJavaClass](https://github.com/abmcmanu/java-springboot-labs/tree/main/assets/niveau0/assets/niveau0/YourFirstJavaClass.webp)
+![YourFirstJavaClass](https://github.com/abmcmanu/java-springboot-labs/main/assets/niveau0/YourFirstJavaClass.webp)
 
 3. Donnez un nom, par exemple : **Main** (La première lettre toujours en majuscule)
 
-![YourFirstJavaClass2](https://github.com/abmcmanu/java-springboot-labs/tree/main/assets/niveau0/assets/niveau0/YourFirstJavaClass2.webp)
+![YourFirstJavaClass2](https://github.com/abmcmanu/java-springboot-labs/main/assets/niveau0/YourFirstJavaClass2.webp)
 
 Collez ce petit code :
 
@@ -290,13 +290,13 @@ S'il existe un code lors de la creation du fichier, je supprime et remplace par 
 
 ▶ Exécuter le programme
 En haut à droite, cliquez sur le bouton Run (icône verte ▶). puis sur Run `Main.main()`
-![FirstClassJava](https://github.com/abmcmanu/java-springboot-labs/tree/main/assets/niveau0/assets/niveau0/FirstClassJava.png)
+![FirstClassJava](https://github.com/abmcmanu/java-springboot-labs/main/assets/niveau0/FirstClassJava.png)
 
-![JeClickPourLancer](https://github.com/abmcmanu/java-springboot-labs/tree/main/assets/niveau0/assets/niveau0/JeClickPourLancer.png)
+![JeClickPourLancer](https://github.com/abmcmanu/java-springboot-labs/main/assets/niveau0/JeClickPourLancer.png)
 
 Si tout fonctionne, la console affiche : Bonjour Java !
 
-![AffichageConsole](https://github.com/abmcmanu/java-springboot-labs/tree/main/assets/niveau0/assets/niveau0/AffichageConsole.png)
+![AffichageConsole](https://github.com/abmcmanu/java-springboot-labs/main/assets/niveau0/AffichageConsole.png)
 
 
 🎉 Félicitations !  

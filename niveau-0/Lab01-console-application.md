@@ -21,7 +21,7 @@ Ce LAB cherche à développer et évaluer :
 - Compréhension d’une API REST
 - Appels HTTP
 - Lecture et parsing JSON
-- Structure Maven 
+- Structure Maven
 - Gestion d’erreurs
 - Production d’un JAR exécutable
 - Organisation propre du code Java
@@ -51,7 +51,7 @@ Ces bases sont essentielles pour bien comprendre et réussir les consignes du la
 ---
 # 📋 Contexte & Mise en situation
 Vous venez d'être recruté(e) comme développeur(se) Back-End Java au sein de MeteoCorp, une société spécialisée dans les solutions météorologiques.
-L'équipe produit a identifié le besoin suivant : développer rapidement un prototype d'application console permettant de consulter les données météorologiques 
+L'équipe produit a identifié le besoin suivant : développer rapidement un prototype d'application console permettant de consulter les données météorologiques
 en temps réel. Cette application servira de preuve de concept (POC) pour valider l'intégration avec l'API [OpenWeatherMap](https://openweathermap.org) avant son déploiement dans des systèmes plus complexes.
 ## Contraintes techniques imposées par l'architecte :
 1. Le projet doit être géré avec Maven pour assurer la standardisation avec les autres projets de l'entreprise
@@ -131,7 +131,7 @@ Vous devez partir d’un archetype pour suivre la bonne pratique entreprise.
 ---
 
 ### 🧩 4. Consommer une API REST
-Une **API REST** est un service web permettant d’obtenir des données via HTTP. 
+Une **API REST** est un service web permettant d’obtenir des données via HTTP.
 
 Une API météo renvoie par exemple :
 - la température,
@@ -170,7 +170,7 @@ Exemples d’erreurs :
 - clé API incorrecte,
 - API hors service,
 - absence d’arguments.
-- 
+-
 ---
 
 ### 🧩 6. Livrer un exécutable JAR
@@ -184,5 +184,4 @@ Exemple d’exécution :
 ```bash
 java -jar meteo-app.jar Paris
 ```
-
 
